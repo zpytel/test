@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/zpytel/stringutil"
+)
 
 func main() {
-    fmt.Printf("hello, world\n")
+    fmt.Printf(stringutil.Reverse("hello, world\n"))
 }
 
-//just added something
+
